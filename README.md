@@ -16,7 +16,14 @@ This is a simple Python-based port scanner that uses threading to scan for open 
    ```bash
    git clone https://github.com/Bimankayal/Port_scanner.git
 
-2. Run the port scanner: python portScanner.py
+2. pyfiglet installation :
+   ```bash
+   pip install  pyfiglet 
+
+   
+
+3. Run the port scanner : python portScanner.py
+
 
 Dependencies :
  Python 3.x 
