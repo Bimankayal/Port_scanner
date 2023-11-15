@@ -45,7 +45,7 @@ try:
     threads = []
 
     # Start worker threads
-    for _ in range(10):  # Adjust the number of threads as needed
+    for _ in range(1000):  # Adjust the number of threads as needed
         thread = threading.Thread(target=worker, args=(q,))
         threads.append(thread)
         thread.start()
