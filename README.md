@@ -22,7 +22,9 @@ This is a simple Python-based port scanner that uses threading to scan for open 
 
    
 
-3. Run the port scanner : python portScanner.py
+3. Run the port scanner : 
+   ```bash
+   python portScanner.py 
 
 
 Dependencies :
